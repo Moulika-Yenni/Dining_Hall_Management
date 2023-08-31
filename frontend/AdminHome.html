@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="Dashboard.css">
+	<title>DHAS</title>
+	<style>
+		#isLog{
+			visibility: hidden;
+		}
+
+		#viewAttendance{
+			margin: auto;
+			background-color: wheat;
+			padding: 15px;
+			height: 10%;
+			color: black;
+			text-align: center;
+			
+		}
+		#temp{
+
+			word-spacing: .7rem;
+		}
+		#temp span{
+			font-weight: bolder;
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body onload="checking()";>
+
+	<nav>
+		<div id="Home">HOME</div>
+        <div id="postUpdate"><a href="updatePost.html">POST Update</a></div>
+		<div id="viewFeed"><a href="FeedbackView.html">FEEDBACKS</a></div>
+        <div id="logout"><a href="AdminLogin.html">LogOut</a></div>
+	</nav>
+	<br>
+	<div id="decoration">
+
+	<main>
+		
+		<div id="viewAttendance">
+			<div><b>Tomorrow's Attendance Count:</b></div><br>
+			<div id="temp">Breakfast: <span id="br"></span> Lunch: <span id="ln"></span> Dinner: <span id="dr"></span></div>
+	    </div>
+		<div id="updates">
+			<h2>Updates</h2>
+			<div id="content">
+				
+			</div>
+		</div>
+	</main>
+</div>
+
+
+	
+</body>
+</html>
